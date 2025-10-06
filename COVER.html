@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Captain Apple and the Yellow Parade</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white">
+
+  <!-- Header -->
+  <header class="bg-violet-400 text-white">
+    <div class="max-w-7xl mx-auto px-8 py-6 flex items-center gap-6">
+      <h1 class="text-3xl font-bold">Knowvas</h1>
+
+      <!-- Search -->
+      <div class="flex-1">
+        <input
+          type="text"
+          placeholder="Search for books, comics, mangas, audiobooks, etc..."
+          class="w-full py-2 px-4 rounded-md text-black"
+        />
+      </div>
+
+      <!-- Nav -->
+      <nav class="flex gap-6">
+        <a href="#" class="hover:underline">Home</a>
+        <a href="#" class="hover:underline">Cart</a>
+        <a href="#" class="hover:underline">Sign in</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-6xl mx-auto px-8 py-12">
+    <div class="grid grid-cols-12 gap-10">
+      
+      <!-- Left: Book Cover -->
+      <div class="col-span-3">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="captain-apple-cover.png" alt="Captain Apple and the Yellow Parade">
+        </div>
+        <p class="text-center text-gray-500 mt-2">#Comic</p>
+      </div>
+
+      <!-- Right: Book Details -->
+      <div class="col-span-9">
+        <h2 class="text-3xl font-bold uppercase">
+          Captain Apple and the Yellow Parade
+        </h2>
+        <p class="text-gray-600 mt-2">by AJANI JAJASON CHUKWUNEKU</p>
+
+        <hr class="my-6">
+
+        <!-- Buttons -->
+        <div class="flex flex-col gap-3 max-w-sm">
+          <button class="bg-violet-500 hover:bg-violet-600 text-white py-3 rounded-md">
+            🛒 Add to Cart (Single-Purchase)
+          </button>
+          <button class="bg-violet-400 hover:bg-violet-500 text-white py-3 rounded-md">
+            ⭐ Become a Member
+          </button>
+          <button class="bg-gray-800 hover:bg-gray-900 text-white py-3 rounded-md">
+            🤍 Add to Wishlist
+          </button>
+          <button class="bg-red-500 hover:bg-red-600 text-white py-3 rounded-md">
+            📖 Preview
+          </button>
+        </div>
+
+        <!-- Price Info -->
+        <div class="flex items-center justify-between max-w-sm mt-4 text-sm">
+          <p class="text-violet-600 font-bold">₦1500.0</p>
+          <p class="text-gray-600">Purchase Only</p>
+          <p class="text-gray-600 font-semibold">PG</p>
+        </div>
+
+        <!-- Synopsis -->
+        <section class="mt-10">
+          <h3 class="text-xl font-bold mb-2">Synopsis</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Captain Apple and the Yellow Parade is a wonderful adventure story about
+            children full of fun, friendship, and imagination. The day Captain Apple
+            goes out bright and sunny, he finds a magic parade of...
+          </p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
